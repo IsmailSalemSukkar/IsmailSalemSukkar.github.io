@@ -11,10 +11,8 @@ dataObtainSP500.R and stockdata500.R do the same, except they only use companies
 Good luck!
 
 Possible future updates:
-
-Set the two scripts to run in tandem
-
-Clean up the working directory
+1. Set the two scripts to run in tandem
+2. Clean up the working directory
 
 ## [Project 2: Serverless Shiny App: Automodeler](https://gitlab.com/sugar_stats/automodeler-shiny-electron)
 
@@ -23,3 +21,7 @@ This work uses the technique to export shiny apps as .exe files in the <https://
 The intentions of this project is to allow those with little to no R experience use a standalone app to create generalized linear models.
 
 As of the current version, the only format the program takes is a csv file with 2 columns named 'x' and 'y', with y being the dependent variable and x being the independent variable. The program will check your assumptions, place it into a gaussian generalized linear model, give the R-squared and plot the data.
+
+## [Project 3: Clustering of Insect Genera to determine the appropriate selection of Indicies of Biotic Integrity](https://gitlab.com/sugar_stats/pmi-cpmi-striation)
+![image](https://user-images.githubusercontent.com/111706007/185808401-22423c98-8828-4140-81e2-15847135255d.png)
+A project performed to determine where different macroinvertebrate index of biotic integrity should be used in southern New Jersey. Currently a political boundary with a buffer zone is being used, and this project attempts to find a biological border. 
