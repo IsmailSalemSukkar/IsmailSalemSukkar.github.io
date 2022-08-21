@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+# Ismail Sukkar's Portfolio
 
-You can use the [editor on GitHub](https://github.com/sugar-stats/Ismail-Sukkar-Portfolio/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## {Project 1: Financial Analysis using R} (https://gitlab.com/sugar_stats/financial-analysis)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+A simple project that collects stock data and gives ratios of interest per stock. There are 4 scripts in this project that are meant to be run in tandem.
 
-### Markdown
+dataobtain.R captures data for ALL stocks on the NYSE, and stockdata.R calculates the Price/Book Ratio, the Current Ratio, the Net/Current Ratio and the P/E Ratio.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+dataObtainSP500.R and stockdata500.R do the same, except they only use companies in the S&P 500.
 
-```markdown
-Syntax highlighted code block
+Good luck!
 
-# Header 1
-## Header 2
-### Header 3
+Possible future updates:
 
-- Bulleted
-- List
+Set the two scripts to run in tandem
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sugar-stats/Ismail-Sukkar-Portfolio/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Clean up the working directory
