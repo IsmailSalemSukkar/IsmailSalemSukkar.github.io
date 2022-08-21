@@ -1,6 +1,6 @@
 # Ismail Sukkar's Portfolio
 
-## {Project 1: Financial Analysis using R} (https://gitlab.com/sugar_stats/financial-analysis)
+## [Project 1: Financial Analysis using R] (https://gitlab.com/sugar_stats/financial-analysis)
 
 A simple project that collects stock data and gives ratios of interest per stock. There are 4 scripts in this project that are meant to be run in tandem.
 
