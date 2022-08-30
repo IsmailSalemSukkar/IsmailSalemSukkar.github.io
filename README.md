@@ -308,8 +308,64 @@ correct IBI to use based on **Figure 4b**, or a future improvement of
 logical separation of the PMI and CPMI regions instead of the current
 use of a political boundary with an arbitrary buffer.
 
+## [Project 2: Is it really more dangerous to drive in the holiday season?](https://gitlab.com/sugar_stats/holidaytraffic)
 
-## [Project 2: Comparing New Jersey's traffic data to the nation](https://gitlab.com/sugar_stats/nj_usa_traffic_data_analysis)
+### Introduction
+
+It is very common to hear the phrase, "Thanksgiving Eve is the most dangerous night to drive" and other warnings after attending a holiday party, but how accurate is it? This is what I intended to find out.
+
+In order to see how accurate this statement was in New Jersey, a dataset with the traffic data from the nation was pulled from here: <https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents> (cited below). The variables of interest were Date, the amount of accidents per date, and month.
+
+After summarizing and fixing the data to grant the frequency per date, I ran 2 models. The first model was to test if month was a significant factor, and the second was to see if increasing date was a significant factor.
+
+### Month
+
+``` r
+freqVSmonth <- glmmTMB(frequency~(Month),  family=nbinom2(),data=trafDataNJ)
+fitMonth <- r.squaredGLMM(freqVSmonth)
+emmeans(freqVSmonth,pairwise~Month,type = "response")
+fitMonth
+```
+
+![image](https://user-images.githubusercontent.com/111706007/187333842-88b2573f-3195-4147-92a8-5f1d1e961684.png)
+
+The above showed that month was statistically significant (p \< 2.2e-16) but was a relatively weak correlation (Pseudo R² = 0.06). The above also showed that the Fall/Winter Months were all statistically similar, but were statistically different from the Spring/Summer months.
+
+### Date
+
+``` r
+freqVsDate <- glmmTMB(frequency~(Date),family="nbinom2",data=trafDataNjDate)
+fitDate <- r.squaredGLMM(freqVsDate)
+plot(simulateResiduals(freqVSmonth)) #QQ plot and residual plot look acceptable
+check_overdispersion(freqVSmonth) #If unsure, use a poisson first and check if overdispersion exists
+Anova(freqVsDate,type=2)
+fitDate
+```
+
+![image](https://user-images.githubusercontent.com/111706007/187333793-34c27bc2-e696-4f49-baf7-e7dfc614d15a.png)
+
+
+Using date gave a much stronger correlation, with a Pseudo R² of 0.38 and a p-value of \< 2.2e-16. This shows that as the date increases from January to December, accident rates appear to increase! Since the holiday season is generally at the end of the year, this does support the hypothesis that the holiday season is more dangerous to drive in.
+
+### Conclusion
+
+This study is not the end-all, be-all on this topic. One major issue is that while this dataset had multiple years, accidents increased rapidly each year for NJ. I hightly doubt that there were only 500 accidents in the state in the year 2017, and this number quadrupled in 2021. The most obvious answer is that certain agencies began reporting in 2021, or certain sources were missed when this dataset was created. It is very possible that in 2021 this same issue was occuring, where in January it was lower due to the dataset having more accident data as it becomes more recent. 
+
+For now, however, my curiousity is sated and I see that the holiday season should definitely be a time of high alert when driving. 
+
+
+Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, and Rajiv Ramnath. "A Countrywide Traffic Accident Dataset.", 2019.
+
+Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, Radu Teodorescu, and Rajiv Ramnath. "Accident Risk Prediction based on Heterogeneous Sparse Data: New Dataset and Insights." In proceedings of the 27th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems, ACM, 2019.
+
+
+
+
+
+
+
+
+## [Project 3: Comparing New Jersey's traffic data to the nation](https://gitlab.com/sugar_stats/nj_usa_traffic_data_analysis)
 
 I was just wondering how safe New Jersey's roads were compared to the rest of the nation, and performed a study to do this.
 
