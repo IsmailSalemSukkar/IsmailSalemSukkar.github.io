@@ -97,6 +97,8 @@ The percent chance of severity was determined by taking turning severity into a 
 
 The final table I made has comparisons to New Jersey. What was interesting to me is that many regions in the mid-west have higher accident ratings and higher probabilities of a severe accident then NJ, despite NJ being the most densely populated state.
 
+![image](https://user-images.githubusercontent.com/111706007/187337759-fa784560-d898-492b-b295-72c266a7ea24.png)
+Alternavively, instead of looking at the table, the above plot can be used to visualize the above, where we can see that a far few states have average accident ratings above NJ. 
 
 -   Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, and Rajiv Ramnath. “[A Countrywide Traffic Accident Dataset](https://arxiv.org/abs/1906.05409).”, 2019.
 
