@@ -97,7 +97,6 @@ The percent chance of severity was determined by taking turning severity into a 
 
 The final table I made has comparisons to New Jersey. What was interesting to me is that many regions in the mid-west have higher accident ratings and higher probabilities of a severe accident then NJ, despite NJ being the most densely populated state.
 
-The first model attempted to use the ordinal variables representing severity (1,2,3,4, with 4 being the most severe and 1 being the least) as integer values, and a poisson distribution was used. Unfortunately, the qqplots and other assumptions failed.
 
 -   Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, and Rajiv Ramnath. “[A Countrywide Traffic Accident Dataset](https://arxiv.org/abs/1906.05409).”, 2019.
 
