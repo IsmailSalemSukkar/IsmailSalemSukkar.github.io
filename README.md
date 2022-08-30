@@ -410,7 +410,7 @@ The first model attempted to use the ordinal variables representing severity (1,
 
 -   Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, Radu Teodorescu, and Rajiv Ramnath. ["Accident Risk Prediction based on Heterogeneous Sparse Data: New Dataset and Insights."](https://arxiv.org/abs/1909.09638) In proceedings of the 27th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems, ACM, 2019.
 
-## [Project 3: Financial Analysis using R](https://gitlab.com/sugar_stats/financial-analysis)
+## [Project 4: Financial Analysis using R](https://gitlab.com/sugar_stats/financial-analysis)
 
 A simple project that collects stock data and gives ratios of interest per stock. There are 4 scripts in this project that are meant to be run in tandem.
 
@@ -424,7 +424,7 @@ Possible future updates:
 1. Set the two scripts to run in tandem
 2. Clean up the working directory
 
-## [Project 4: Serverless RShiny App: Automodeler](https://gitlab.com/sugar_stats/automodeler-shiny-electron)
+## [Project 5: Serverless RShiny App: Automodeler](https://gitlab.com/sugar_stats/automodeler-shiny-electron)
 
 This work uses the technique to export shiny apps as .exe files in <https://github.com/COVAIL/electron-quick-start>.
 
