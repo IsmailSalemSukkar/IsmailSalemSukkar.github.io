@@ -196,12 +196,9 @@ in the original maps to use as a baseline to any further generated
 clusters. Only one clusters is spatially statistically significant
 (Cluster 1 *p* \<0.001).
 
-<figure>
 ![image](https://user-images.githubusercontent.com/111706007/187327560-9939cade-19b9-4573-aa46-0039ac79f513.png)
-</figure>
 
-<figure>
-![image](https://user-images.githubusercontent.com/111706007/187327572-e3e90646-b071-439a-ab6d-21f9bde8cc1b.png)</figure>
+![image](https://user-images.githubusercontent.com/111706007/187327572-e3e90646-b071-439a-ab6d-21f9bde8cc1b.png)
 
 ###### Biotic Cluster
 
@@ -211,11 +208,9 @@ weaker significance in one of the clusters (Cluster 2’s *p* = 0.078).
 There also appears to be some interference within the dataset when
 expanding the data to the HUC14 resolution (**Figure 2**).
 
-<figure>
-![image](https://user-images.githubusercontent.com/111706007/187327591-58fa5cd7-e419-4c9a-a508-ca5088aa3a1f.png)</figure>
+![image](https://user-images.githubusercontent.com/111706007/187327591-58fa5cd7-e419-4c9a-a508-ca5088aa3a1f.png)
 
-<figure>
-![image](https://user-images.githubusercontent.com/111706007/187327604-1f2ec0d9-dfc8-4461-9a65-cbae5e51b4e4.png)</figure>
+![image](https://user-images.githubusercontent.com/111706007/187327604-1f2ec0d9-dfc8-4461-9a65-cbae5e51b4e4.png)
 
 ###### Abiotic Cluster
 
@@ -225,11 +220,9 @@ interference than the biotic map. This is further solidified by the fact
 that both clusters had some level of spatial clustering (Cluster 1 *p* =
 0.09, Cluster 2 *p* = 0.011).
 
-<figure>
-![image](https://user-images.githubusercontent.com/111706007/187327628-b75621d5-41fd-4fbe-9075-6d7b7ef92a73.png)</figure>
+![image](https://user-images.githubusercontent.com/111706007/187327628-b75621d5-41fd-4fbe-9075-6d7b7ef92a73.png)
 
-<figure>
-![image](https://user-images.githubusercontent.com/111706007/187327634-7b3e9818-1613-461c-9197-cc1bf82aceac.png)</figure>
+![image](https://user-images.githubusercontent.com/111706007/187327634-7b3e9818-1613-461c-9197-cc1bf82aceac.png)
 
 ###### Combined Cluster
 
@@ -241,11 +234,9 @@ our IBIs, this may be the best we can do. The HUC14 resolution reveals a
 distribution very similar to the genera cluster map shown in **Figure
 2**, but with less interference.
 
-<figure>
-![image](https://user-images.githubusercontent.com/111706007/187327645-0a5d9d93-733c-4637-83dc-47b9bf7fe965.png)</figure>
+![image](https://user-images.githubusercontent.com/111706007/187327645-0a5d9d93-733c-4637-83dc-47b9bf7fe965.png)
 
-<figure>
-![image](https://user-images.githubusercontent.com/111706007/187327650-2302c4b4-0dc1-4626-a4a0-707da3d9ca69.png)</figure>
+![image](https://user-images.githubusercontent.com/111706007/187327650-2302c4b4-0dc1-4626-a4a0-707da3d9ca69.png)
 
 ### Discussion
 
@@ -302,11 +293,9 @@ using an index due to an arbitrary reason cannot be relied on to detect
 trends or other analysis. A more accurate approach will allow the state
 to detect any degradation occurring in streams with more confidence.
 
-<figure>
-![image](https://user-images.githubusercontent.com/111706007/187327676-e4eaacd4-1634-4180-b987-b2ea6b555406.png)</figure>
+![image](https://user-images.githubusercontent.com/111706007/187327676-e4eaacd4-1634-4180-b987-b2ea6b555406.png)
 
-<figure>
-![image](https://user-images.githubusercontent.com/111706007/187327686-f13c6ee1-a3ad-49e8-88c6-9bb848e07c5d.png)</figure>
+![image](https://user-images.githubusercontent.com/111706007/187327686-f13c6ee1-a3ad-49e8-88c6-9bb848e07c5d.png)
 
 ### Conclusion
 
