@@ -42,7 +42,8 @@ Anova(freqVsDate,type=2)
 fitDate
 ```
 
-![image](https://user-images.githubusercontent.com/111706007/187333793-34c27bc2-e696-4f49-baf7-e7dfc614d15a.png)
+![image](https://user-images.githubusercontent.com/111706007/188327866-af5e2b7c-8ad1-4839-b7b3-bb12f1becc9f.png)
+
 
 
 Using date gave a much stronger correlation, with a Pseudo R² of 0.38 and a p-value of \< 2.2e-16. This shows that as the date increases from January to December, accident rates appear to increase! Since the holiday season is generally at the end of the year, this does support the hypothesis that the holiday season is more dangerous to drive in.
