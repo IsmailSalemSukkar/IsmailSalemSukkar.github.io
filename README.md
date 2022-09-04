@@ -1,4 +1,4 @@
-# Ismail Sukkar's Portfolio
+# Sugar's Portfolio
 
 ## [Project 1: Clustering of Insect Genera to determine the appropriate selection of Indicies of Biotic Integrity](https://gitlab.com/sugar_stats/pmi-cpmi-striation)
 
