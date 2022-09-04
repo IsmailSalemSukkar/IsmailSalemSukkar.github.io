@@ -28,7 +28,7 @@ emmeans(freqVSmonth,pairwise~Month,type = "response")
 fitMonth
 ```
 
-![image](https://user-images.githubusercontent.com/111706007/187333842-88b2573f-3195-4147-92a8-5f1d1e961684.png)
+![image](https://user-images.githubusercontent.com/111706007/188328024-367a6ac8-0071-437d-b3e2-79de9ea7e52c.png)
 
 The above showed that month was statistically significant (p \< 2.2e-16) but was a relatively weak correlation (Pseudo R² = 0.06). The above also showed that the Fall/Winter Months were all statistically similar, but were statistically different from the Spring/Summer months.
 
