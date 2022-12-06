@@ -1,6 +1,35 @@
-# Sugar's Portfolio
+# Ismail Sukkar's Portfolio
 
-## [Project 1: Clustering of Insect Genera to determine the appropriate selection of Indicies of Biotic Integrity](https://gitlab.com/sugar_stats/pmi-cpmi-striation)
+## [Project 1: Tax Analysis on the 1%](https://gitlab.com/sugar_stats/taxanalysis)
+
+This project initially started off as an attempt to see if different states had different federal effective tax rates (ETR) on the 1% of this country. Utilizing linear models, this was determined to be incorrect for the top 1% of this country, but accurate for other percentiles. This made me question why this was true.
+
+I began a second analysis of determining the AGI makeup of the different AGI-percentiles, and it was interesting to note a few things:
+
+
+![image](https://user-images.githubusercontent.com/111706007/206015056-c65ade0e-24f8-49a0-8455-3438b10b5bb3.png)
+
+
+1.  The AGI of the 1% is the only bracket where salary was NOT the majority of their income (35% of AGI for the 1% vs 64% of AGI for the 5%)
+
+
+![image](https://user-images.githubusercontent.com/111706007/206015146-56b8778b-9927-42d7-b343-10abc6d5d0fd.png)
+
+
+2.  The ETR plateau at about 1 million AGI, around 35%. One issue here is that since we are only looking at average income per bracket, its not possible to really check the actual point of plateau.
+
+    It appears that the 1% achieve this tax "plateau" via diversifying their AGI sources. Since salary is traditionally thought of as the most taxed AGI source, while sources like captial gains is capped at 15%, there are many ways for the 1% to avoid paying income taxes.
+
+    | 1%    | 5%    | 10%   | 25%   | 50%   | 75%      |
+    |-------|-------|-------|-------|-------|----------|
+    | 0.161 | 0.282 | 0.165 | 0.204 | 0.116 | Not Sig. |
+
+    : The slope of salary when compared to the ETR of each respective percentile
+
+3.  Salary appears to be a large driver of taxes for every bracket except the 75%. What is interesting is that Salary is a larger drive of taxes for the 5% then the 1%, while the 10% and the 1% have salary being drivers of similar strength. This makes sense since while the 1% do pay more in salary/income taxes, its a smaller percentage of their income then the 5%.
+
+
+## [Project 2: Clustering of Insect Genera to determine the appropriate selection of Indicies of Biotic Integrity](https://gitlab.com/sugar_stats/pmi-cpmi-striation)
 
 Currently, there are two seperate aquatic macroinvertebrate indicies of biotic integrity of use within southern NJ, the Coastal Plain Macroinvertebrate Index (CPMI), and the Pineland Macroinvertebreate Index (PMI). The current borders of use for these indicies are currently a 5km buffer on a political boundary. I decided that it would be best to use a more scientific approach to creating this boundary.  
 
@@ -10,7 +39,7 @@ A spherical k-means on the insect genera found, pH and Specific Conductivity was
 
 
 
-## [Project 2: Is it really more dangerous to drive in the holiday season?](https://gitlab.com/sugar_stats/holidaytraffic)
+## [Project 3: Is it really more dangerous to drive in the holiday season?](https://gitlab.com/sugar_stats/holidaytraffic)
 
 
 
@@ -59,7 +88,7 @@ Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, and Raji
 Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, Radu Teodorescu, and Rajiv Ramnath. "Accident Risk Prediction based on Heterogeneous Sparse Data: New Dataset and Insights." In proceedings of the 27th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems, ACM, 2019.
 
 
-## [Project 3: Comparing New Jersey's traffic data to the nation](https://gitlab.com/sugar_stats/nj_usa_traffic_data_analysis)
+## [Project 4: Comparing New Jersey's traffic data to the nation](https://gitlab.com/sugar_stats/nj_usa_traffic_data_analysis)
 
 I was just wondering how safe New Jersey's roads were compared to the rest of the nation, and performed a study to do this.
 
@@ -105,7 +134,7 @@ Alternavively, instead of looking at the table, the above plot can be used to vi
 
 -   Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, Radu Teodorescu, and Rajiv Ramnath. ["Accident Risk Prediction based on Heterogeneous Sparse Data: New Dataset and Insights."](https://arxiv.org/abs/1909.09638) In proceedings of the 27th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems, ACM, 2019.
 
-## [Project 4: Financial Analysis using R](https://gitlab.com/sugar_stats/financial-analysis)
+## [Project 5: Financial Analysis using R](https://gitlab.com/sugar_stats/financial-analysis)
 
 A simple project that collects stock data and gives ratios of interest per stock. There are 4 scripts in this project that are meant to be run in tandem.
 
@@ -119,7 +148,7 @@ Possible future updates:
 1. Set the two scripts to run in tandem
 2. Clean up the working directory
 
-## [Project 5: Serverless RShiny App: Automodeler](https://gitlab.com/sugar_stats/automodeler-shiny-electron)
+## [Project 6: Serverless RShiny App: Automodeler](https://gitlab.com/sugar_stats/automodeler-shiny-electron)
 
 This work uses the technique to export shiny apps as .exe files in <https://github.com/COVAIL/electron-quick-start>.
 
