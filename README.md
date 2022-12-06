@@ -12,8 +12,7 @@ I began a second analysis of determining the AGI makeup of the different AGI-per
 
 1.  The AGI of the 1% is the only bracket where salary was NOT the majority of their income (35% of AGI for the 1% vs 64% of AGI for the 5%)
 
-
-![image](https://user-images.githubusercontent.com/111706007/206015146-56b8778b-9927-42d7-b343-10abc6d5d0fd.png)
+    !![image](https://user-images.githubusercontent.com/111706007/206015146-56b8778b-9927-42d7-b343-10abc6d5d0fd.png)
 
 
 2.  The ETR plateau at about 1 million AGI, around 35%. One issue here is that since we are only looking at average income per bracket, its not possible to really check the actual point of plateau.
