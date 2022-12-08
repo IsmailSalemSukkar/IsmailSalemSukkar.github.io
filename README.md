@@ -1,6 +1,33 @@
 # Ismail Sukkar's Portfolio
 
-## [Project 1: Tax Analysis on the 1%](https://gitlab.com/sugar_stats/taxanalysis)
+## [Project 1: Analysis of the effect of Demographic group vs Vaccination Rate](https://gitlab.com/sugar_stats/demovsvaxrate)
+
+There have been many anectodal claims in the media that certain demographic groups are less likely to be vaccinated than others. I wanted to see if this was supported by data.
+
+In order to do this, I decided to use the makeup of currently vaccinated people, and compare that to the makeup of this country. If the demographic percentages of vaccinated people were comparable to the demographic percentages of the census, than this would be considered false. The alternative hypothesis would be if the percentages of vaccinated people were different than the percentages in the census, then the claims the media makes may have some merit.
+
+I first checked to see if the vaccinated % were different than census data. Using a one-way t-test, I found that all groups differed significantly from their census population percentages.
+
+|                                    | Hispanic | AIAN/Native American | Asian | Black | NHOPI/Pacific Islander | White |
+|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+| Census %                           | 18.9%    | 1.3%                 | 6.1%  | 13.6% | 0.3%                   | 59.3% |
+| Average Vaccine PopulationMakeup % | 18.5%    | 1.0%                 | 6.6%  | 9.3%% | 0.29%                  | 57.8% |
+| Performance                        | -2%      | -23%                 | 8%    | -32%  | -2%                    | -3%   |
+
+Asian Americans were one of the few groups that consistantly made up a larger percentage of the vaccination groups than the census data would show, with an 8% overperformance.
+
+Most other groups underperformed their census data, but since its only by 2-3% there may not be a real world isue. However, Black Americans and Native Americans underperformed by over 3%, with 32% and 23% underperformance respectively.
+
+![image](https://user-images.githubusercontent.com/111706007/206538044-15e3ea2d-6f7c-47ab-8513-38fc2a4874b7.png)
+
+
+Unfortunately, it appears that the anecdotal evidence presented by the media did have some truth to it. It does appear that black and native americans both have poorer vaccination rates than the general public. Considering both groups are historically marginalized, more work needs to be done to assist these groups and educate about he safety of the vaccines.
+
+One flaw with the dataset, and the study as a whole, is that 33% of americans did not report their demographic data. For all we know, this may be where the majority of black and native americans are located. Since both of these groups are marginalized and do not trust the government for various reasons (Tuskagee, etc ), this is not a far-fetched hypothesis.
+
+
+
+## [Project 2: Tax Analysis on the 1%](https://gitlab.com/sugar_stats/taxanalysis)
 
 This project initially started off as an attempt to see if different states had different federal effective tax rates (ETR) on the 1% of this country. Utilizing linear models, this was determined to be incorrect for the top 1% of this country, but accurate for other percentiles. This made me question why this was true.
 
@@ -28,7 +55,7 @@ I began a second analysis of determining the AGI makeup of the different AGI-per
 3.  Salary appears to be a large driver of taxes for every bracket except the 75%. What is interesting is that Salary is a larger drive of taxes for the 5% then the 1%, while the 10% and the 1% have salary being drivers of similar strength. This makes sense since while the 1% do pay more in salary/income taxes, its a smaller percentage of their income then the 5%.
 
 
-## [Project 2: Clustering of Insect Genera to determine the appropriate selection of Indicies of Biotic Integrity](https://gitlab.com/sugar_stats/pmi-cpmi-striation)
+## [Project 3: Clustering of Insect Genera to determine the appropriate selection of Indicies of Biotic Integrity](https://gitlab.com/sugar_stats/pmi-cpmi-striation)
 
 Currently, there are two seperate aquatic macroinvertebrate indicies of biotic integrity of use within southern NJ, the Coastal Plain Macroinvertebrate Index (CPMI), and the Pineland Macroinvertebreate Index (PMI). The current borders of use for these indicies are currently a 5km buffer on a political boundary. I decided that it would be best to use a more scientific approach to creating this boundary.  
 
@@ -38,7 +65,7 @@ A spherical k-means on the insect genera found, pH and Specific Conductivity was
 
 
 
-## [Project 3: Is it really more dangerous to drive in the holiday season?](https://gitlab.com/sugar_stats/holidaytraffic)
+## [Project 4: Is it really more dangerous to drive in the holiday season?](https://gitlab.com/sugar_stats/holidaytraffic)
 
 
 
@@ -87,7 +114,7 @@ Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, and Raji
 Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, Radu Teodorescu, and Rajiv Ramnath. "Accident Risk Prediction based on Heterogeneous Sparse Data: New Dataset and Insights." In proceedings of the 27th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems, ACM, 2019.
 
 
-## [Project 4: Comparing New Jersey's traffic data to the nation](https://gitlab.com/sugar_stats/nj_usa_traffic_data_analysis)
+## [Project 5: Comparing New Jersey's traffic data to the nation](https://gitlab.com/sugar_stats/nj_usa_traffic_data_analysis)
 
 I was just wondering how safe New Jersey's roads were compared to the rest of the nation, and performed a study to do this.
 
@@ -133,7 +160,7 @@ Alternavively, instead of looking at the table, the above plot can be used to vi
 
 -   Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, Radu Teodorescu, and Rajiv Ramnath. ["Accident Risk Prediction based on Heterogeneous Sparse Data: New Dataset and Insights."](https://arxiv.org/abs/1909.09638) In proceedings of the 27th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems, ACM, 2019.
 
-## [Project 5: Financial Analysis using R](https://gitlab.com/sugar_stats/financial-analysis)
+## [Project 6: Financial Analysis using R](https://gitlab.com/sugar_stats/financial-analysis)
 
 A simple project that collects stock data and gives ratios of interest per stock. There are 4 scripts in this project that are meant to be run in tandem.
 
@@ -147,7 +174,7 @@ Possible future updates:
 1. Set the two scripts to run in tandem
 2. Clean up the working directory
 
-## [Project 6: Serverless RShiny App: Automodeler](https://gitlab.com/sugar_stats/automodeler-shiny-electron)
+## [Project 7: Serverless RShiny App: Automodeler](https://gitlab.com/sugar_stats/automodeler-shiny-electron)
 
 This work uses the technique to export shiny apps as .exe files in <https://github.com/COVAIL/electron-quick-start>.
 
