@@ -173,18 +173,11 @@ Good luck!
 Possible future updates:
 1. Set the two scripts to run in tandem
 2. Clean up the working directory
-
-function initializeViz() {
-var placeholderDiv = document.getElementById("tableauViz");
-var url = "https://public.tableau.com/app/profile/ismail.salem.sukkar/viz/prototypeInvest/Dashboard1";
-var options = {
- width: '600px',
- height: '600px',
- hideTabs: true,
- hideToolbar: true,
- };
-viz = new tableau.Viz(placeholderDiv, url, options);
-}
+<script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
+<tableau-viz id="tableauViz"       
+  src='https://public.tableau.com/app/profile/ismail.salem.sukkar/viz/prototypeInvest/Dashboard1'      
+  height='600px' width='600px' toolbar='bottom' hide-tabs>
+</tableau-viz>
 
 ## [Project 7: Serverless RShiny App: Automodeler](https://gitlab.com/sugar_stats/automodeler-shiny-electron)
 
