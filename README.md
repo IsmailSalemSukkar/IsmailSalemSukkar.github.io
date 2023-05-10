@@ -11,6 +11,8 @@ This data was pulled on 5/8/2023. This should not be the sole source of investin
 
 
 
+
+
 ## [Project 2: Analysis of the effect of Demographic group vs Vaccination Rate](https://gitlab.com/sugar_stats/demovsvaxrate)
 
 There have been many anectodal claims in the media that certain demographic groups are less likely to be vaccinated than others. I wanted to see if this was supported by data.
