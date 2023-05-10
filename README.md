@@ -1,6 +1,17 @@
 # Ismail Sukkar's Portfolio
 
-## [Project 1: Analysis of the effect of Demographic group vs Vaccination Rate](https://gitlab.com/sugar_stats/demovsvaxrate)
+## [Project 1: Financial Analysis using R](https://github.com/IsmailSalemSukkar/ValueInvestingScript)
+
+
+A script that pulls the most recent stock data from the yahoo finance database, and analyses the data via the quantitive rules of value investing. The below Tableau Visualization is a dashboard that allows a user to explore the data. Numbers in red signify that the user should use caution and check why that number is as high as it is. For example, an extrememly low current ratio may signify a chance of default risk, so should use caution when investing. 
+
+This data is pulled on 5/8/2023. This should not be the sole source of investing information, and should be double checked with other sources due the lack of reliability that the yfinance package sometimes displays. This is also not investing advice, which should be discussing with your financial adviser. 
+
+<iframe src="https://public.tableau.com/views/prototypeInvest/Dashboard1?:embed=y&:display_count=yes&:showVizHome=no" height="600px" width="600px"></iframe>
+
+
+
+## [Project 2: Analysis of the effect of Demographic group vs Vaccination Rate](https://gitlab.com/sugar_stats/demovsvaxrate)
 
 There have been many anectodal claims in the media that certain demographic groups are less likely to be vaccinated than others. I wanted to see if this was supported by data.
 
@@ -27,7 +38,7 @@ One flaw with the dataset, and the study as a whole, is that 33% of americans di
 
 
 
-## [Project 2: Tax Analysis on the 1%](https://gitlab.com/sugar_stats/taxanalysis)
+## [Project 3: Tax Analysis on the 1%](https://gitlab.com/sugar_stats/taxanalysis)
 
 This project initially started off as an attempt to see if different states had different federal effective tax rates (ETR) on the 1% of this country. Utilizing linear models, this was determined to be incorrect for the top 1% of this country, but accurate for other percentiles. This made me question why this was true.
 
@@ -55,7 +66,7 @@ I began a second analysis of determining the AGI makeup of the different AGI-per
 3.  Salary appears to be a large driver of taxes for every bracket except the 75%. What is interesting is that Salary is a larger drive of taxes for the 5% then the 1%, while the 10% and the 1% have salary being drivers of similar strength. This makes sense since while the 1% do pay more in salary/income taxes, its a smaller percentage of their income then the 5%.
 
 
-## [Project 3: Clustering of Insect Genera to determine the appropriate selection of Indicies of Biotic Integrity](https://gitlab.com/sugar_stats/pmi-cpmi-striation)
+## [Project 4: Clustering of Insect Genera to determine the appropriate selection of Indicies of Biotic Integrity](https://gitlab.com/sugar_stats/pmi-cpmi-striation)
 
 Currently, there are two seperate aquatic macroinvertebrate indicies of biotic integrity of use within southern NJ, the Coastal Plain Macroinvertebrate Index (CPMI), and the Pineland Macroinvertebreate Index (PMI). The current borders of use for these indicies are currently a 5km buffer on a political boundary. I decided that it would be best to use a more scientific approach to creating this boundary.  
 
@@ -65,7 +76,7 @@ A spherical k-means on the insect genera found, pH and Specific Conductivity was
 
 
 
-## [Project 4: Is it really more dangerous to drive in the holiday season?](https://gitlab.com/sugar_stats/holidaytraffic)
+## [Project 5: Is it really more dangerous to drive in the holiday season?](https://gitlab.com/sugar_stats/holidaytraffic)
 
 
 
@@ -114,7 +125,7 @@ Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, and Raji
 Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, Radu Teodorescu, and Rajiv Ramnath. "Accident Risk Prediction based on Heterogeneous Sparse Data: New Dataset and Insights." In proceedings of the 27th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems, ACM, 2019.
 
 
-## [Project 5: Comparing New Jersey's traffic data to the nation](https://gitlab.com/sugar_stats/nj_usa_traffic_data_analysis)
+## [Project 6: Comparing New Jersey's traffic data to the nation](https://gitlab.com/sugar_stats/nj_usa_traffic_data_analysis)
 
 I was just wondering how safe New Jersey's roads were compared to the rest of the nation, and performed a study to do this.
 
@@ -159,23 +170,6 @@ Alternavively, instead of looking at the table, the above plot can be used to vi
 -   Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, and Rajiv Ramnath. “[A Countrywide Traffic Accident Dataset](https://arxiv.org/abs/1906.05409).”, 2019.
 
 -   Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, Radu Teodorescu, and Rajiv Ramnath. ["Accident Risk Prediction based on Heterogeneous Sparse Data: New Dataset and Insights."](https://arxiv.org/abs/1909.09638) In proceedings of the 27th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems, ACM, 2019.
-
-## [Project 6: Financial Analysis using R](https://gitlab.com/sugar_stats/financial-analysis)
-
-A simple project that collects stock data and gives ratios of interest per stock. There are 4 scripts in this project that are meant to be run in tandem.
-
-dataobtain.R captures data for ALL stocks on the NYSE, and stockdata.R calculates the Price/Book Ratio, the Current Ratio, the Net/Current Ratio and the P/E Ratio.
-
-dataObtainSP500.R and stockdata500.R do the same, except they only use companies in the S&P 500.
-
-Good luck!
-
-Possible future updates:
-1. Set the two scripts to run in tandem
-2. Clean up the working directory
-
-
-<iframe src="https://public.tableau.com/views/prototypeInvest/Dashboard1?:embed=y&:display_count=yes&:showVizHome=no" height="600px" width="600px"></iframe>
 
 
 ## [Project 7: Serverless RShiny App: Automodeler](https://gitlab.com/sugar_stats/automodeler-shiny-electron)
