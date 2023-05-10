@@ -175,7 +175,7 @@ Possible future updates:
 2. Clean up the working directory
 
 
-<iframe src="https://public.tableau.com/views/prototypeInvest/Dashboard1?:embed=y&:display_count=yes&:showVizHome=no" height="827px"></iframe>
+<iframe src="https://public.tableau.com/views/prototypeInvest/Dashboard1?:embed=y&:display_count=yes&:showVizHome=no" height="600px" width="600px"></iframe>
 
 
 ## [Project 7: Serverless RShiny App: Automodeler](https://gitlab.com/sugar_stats/automodeler-shiny-electron)
