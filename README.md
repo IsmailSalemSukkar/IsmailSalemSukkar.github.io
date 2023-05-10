@@ -1,6 +1,6 @@
 # Ismail Sukkar's Portfolio
 
-## [Project 1: Prototype Financial Analysis using R](https://github.com/IsmailSalemSukkar/ValueInvestingScript)
+## [Project 1: Value Investing Screening Tool using R and Tableau](https://github.com/IsmailSalemSukkar/ValueInvestingScript)
 
 
 A script that pulls the most recent stock data from the yahoo finance database, and analyses the data via the quantitive rules of value investing. The below Tableau Visualization is a dashboard that allows a user to explore the data. Numbers in red signify that the user should use caution and check why that number is what it is before investing. For example, an extrememly low current ratio may signify a chance of default risk, so should use caution when investing. The thresholds are based off the book **The Intelligent Investor** by Benjamin Graham. It should be noted that different industries will have different thresholds in the real world, but this is not accounted for in this prototype script and visualization.
