@@ -1,7 +1,7 @@
 # Ismail Sukkar's Portfolio
 
 
-## [Project 1: Use of Unsupervised Machine Learning Algorithms determine the appropriate selection of Indicies of Biotic Integrity](https://gitlab.com/sugar_stats/pmi-cpmi-striation)
+## [Project 1: Use of Unsupervised Machine Learning Algorithms to classify the appropriate of Index of Biotic Integrity](https://gitlab.com/sugar_stats/pmi-cpmi-striation)
 
 Currently, there are two seperate aquatic macroinvertebrate indicies of biotic integrity of use within southern NJ, the Coastal Plain Macroinvertebrate Index (CPMI), and the Pineland Macroinvertebreate Index (PMI). The current borders of use for these indicies are currently a 5km buffer on a political boundary. I decided that it would be best to use a more scientific approach to creating this boundary.  
 
