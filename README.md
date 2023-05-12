@@ -1,6 +1,16 @@
 # Ismail Sukkar's Portfolio
 
-## [Project 1: Value Investing Screening Tool using R and Tableau](https://github.com/IsmailSalemSukkar/ValueInvestingScript)
+
+## [Project 1: Use of Unsupervised Machine Learning Algorithms determine the appropriate selection of Indicies of Biotic Integrity](https://gitlab.com/sugar_stats/pmi-cpmi-striation)
+
+Currently, there are two seperate aquatic macroinvertebrate indicies of biotic integrity of use within southern NJ, the Coastal Plain Macroinvertebrate Index (CPMI), and the Pineland Macroinvertebreate Index (PMI). The current borders of use for these indicies are currently a 5km buffer on a political boundary. I decided that it would be best to use a more scientific approach to creating this boundary.  
+
+
+![image](https://user-images.githubusercontent.com/111706007/187327676-e4eaacd4-1634-4180-b987-b2ea6b555406.png)
+An unsupervised machine learning algorithm was used on the insect genera found, pH and Specific Conductivity. The algorithm chosen was a spherical k-means clustering method due to support from the literature.  This led to two distinct clusters being found. What was interesting about this was that these clusters found appear to agree with the eco-regions proposed by the EPA and USGS. Further study will be needed before anything can be definitively concluded. 
+
+
+## [Project 2: Value Investing Screening Tool using R and Tableau](https://github.com/IsmailSalemSukkar/ValueInvestingScript)
 
 
 An R script that pulls the most recent stock data from the yahoo finance database, and analyses the data via the quantitive rules of value investing. The below Tableau Visualization is a dashboard that allows a user to explore the data. Numbers in red signify that the user should use caution and check why that number is what it is before investing. For example, an extrememly low current ratio may signify a chance of default risk depending on the industry, so the investor should use caution when investing. The thresholds are based off the book **The Intelligent Investor** by Benjamin Graham, except for the Beta Threshold, where the threshold was based on how correlated the stock is to the stock market. It should be noted that different industries will have different thresholds in the real world, but this is not accounted for in this prototype script and visualization.
@@ -13,7 +23,7 @@ This data was pulled on 5/8/2023. This should not be the sole source of investin
 
 
 
-## [Project 2: Analysis of the effect of Demographic group vs Vaccination Rate](https://gitlab.com/sugar_stats/demovsvaxrate)
+## [Project 3: Analysis of the effect of Demographic group vs Vaccination Rate](https://gitlab.com/sugar_stats/demovsvaxrate)
 
 There have been many anectodal claims in the media that certain demographic groups are less likely to be vaccinated than others. I wanted to see if this was supported by data.
 
@@ -40,7 +50,7 @@ One flaw with the dataset, and the study as a whole, is that 33% of americans di
 
 
 
-## [Project 3: Tax Analysis on the 1%](https://gitlab.com/sugar_stats/taxanalysis)
+## [Project 4: Tax Analysis on the 1%](https://gitlab.com/sugar_stats/taxanalysis)
 
 This project initially started off as an attempt to see if different states had different federal effective tax rates (ETR) on the 1% of this country. Utilizing linear models, this was determined to be incorrect for the top 1% of this country, but accurate for other percentiles. This made me question why this was true.
 
@@ -66,15 +76,6 @@ I began a second analysis of determining the AGI makeup of the different AGI-per
     : The slope of salary when compared to the ETR of each respective percentile
 
 3.  Salary appears to be a large driver of taxes for every bracket except the 75%. What is interesting is that Salary is a larger drive of taxes for the 5% then the 1%, while the 10% and the 1% have salary being drivers of similar strength. This makes sense since while the 1% do pay more in salary/income taxes, its a smaller percentage of their income then the 5%.
-
-
-## [Project 4: Clustering of Insect Genera to determine the appropriate selection of Indicies of Biotic Integrity](https://gitlab.com/sugar_stats/pmi-cpmi-striation)
-
-Currently, there are two seperate aquatic macroinvertebrate indicies of biotic integrity of use within southern NJ, the Coastal Plain Macroinvertebrate Index (CPMI), and the Pineland Macroinvertebreate Index (PMI). The current borders of use for these indicies are currently a 5km buffer on a political boundary. I decided that it would be best to use a more scientific approach to creating this boundary.  
-
-
-![image](https://user-images.githubusercontent.com/111706007/187327676-e4eaacd4-1634-4180-b987-b2ea6b555406.png)
-A spherical k-means on the insect genera found, pH and Specific Conductivity was ran, and two distincy clusters were found. What was interesting about this was that these clusters found appear to agree with the eco-regions proposed by the EPA and USGS. Further study will be needed before anything can be definitively concluded. 
 
 
 
