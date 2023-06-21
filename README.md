@@ -46,7 +46,7 @@ Most other groups underperformed their census data, but since its only by 2-3% t
 
 Unfortunately, it appears that the anecdotal evidence presented by the media did have some truth to it. It does appear that black and native americans both have poorer vaccination rates than the general public. Considering both groups are historically marginalized, more work needs to be done to assist these groups and educate about he safety of the vaccines.
 
-One flaw with the dataset, and the study as a whole, is that 33% of americans did not report their demographic data. For all we know, this may be where the majority of black and native americans are located. Since both of these groups are marginalized and do not trust the government for various reasons (Tuskagee, etc ), this is not a far-fetched hypothesis.
+One flaw with the dataset, and the study as a whole, is that 33% of americans did not report their demographic data. For all we know, this may be where the majority of black and native americans are located.
 
 
 
